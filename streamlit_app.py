@@ -60,7 +60,7 @@ def count_sentiments():
 
 # Step 5: Streamlit web application
 def main():
-    st.set_page_config(page_title="Coldplay Sentiment Analyzer", page_icon=":musical_note:")
+    st.set_page_config(page_title="Coldplay Song Sentiment Analyzer", page_icon=":musical_note:")
     st.title("Coldplay Sentiment Analyzer")
     st.markdown("---")
     st.markdown("### Analyze a Coldplay Song")
