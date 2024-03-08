@@ -37,7 +37,7 @@ def insert_song(title, lyrics, sentiment):
         c.execute("INSERT INTO songs VALUES (?, ?, ?)", (title, lyrics, sentiment))
         conn.commit()
     conn.close()
-git 
+
 # Step 3: Function to perform sentiment analysis using VADER
 def analyze_sentiment(text):
     analyzer = SentimentIntensityAnalyzer()
