@@ -65,7 +65,6 @@ def main():
     st.markdown("---")
     st.markdown("### Analyze a Coldplay Song")
     create_database()
-    logo = st.image("https://wallpapercave.com/wp/wp11708101.jpg", width=100)
     for song_title in coldplay_songs:
         lyrics = get_lyrics(song_title)
         if lyrics:
