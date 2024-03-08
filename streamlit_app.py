@@ -65,7 +65,7 @@ def main():
     st.markdown("---")
     st.markdown("### Analyze a Coldplay Song")
     create_database()
-    logo = st.image("https://lh5.ggpht.com/6PMlFSeZjozbV6Zjprd0xroRHvLkoTZqxiQajx9H7ziA4-3fzo7Fy23imp59aqZn_xZ3OD0WAomBAgty-SfxJg", width=100)
+    logo = st.image("https://pluspng.com/png-1266.html", width=100)
     for song_title in coldplay_songs:
         lyrics = get_lyrics(song_title)
         if lyrics:
