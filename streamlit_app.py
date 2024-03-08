@@ -65,7 +65,7 @@ def main():
     st.markdown("---")
     st.markdown("### Analyze a Coldplay Song")
     create_database()
-    logo = st.image("D:\nunav\Coldplay_song_emotion_detection_application\Song_logo.jpeg", width=100)
+    logo = st.image("Coldplay_song_emotion_detection_application\Song_logo.jpeg", width=100)
     for song_title in coldplay_songs:
         lyrics = get_lyrics(song_title)
         if lyrics:
