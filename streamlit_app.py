@@ -64,6 +64,23 @@ def main():
     st.title("Coldplay Sentiment Analyzer")
     st.markdown("---")
     st.markdown("### Analyze a Coldplay Song")
+
+    # Display background image
+    st.markdown(
+        """
+        <style>
+        .reportview-container {
+            background: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Music-Note-Desktop-Photo.jpg");
+            background-size: cover;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Display music logo
+    logo = st.image("https://www.pixelstalk.net/wp-content/uploads/2016/07/Music-Note-HD-Wallpaper.jpg", width=100)
+
     create_database()
     for song_title in coldplay_songs:
         lyrics = get_lyrics(song_title)
