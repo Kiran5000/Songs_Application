@@ -79,7 +79,7 @@ def main():
     )
 
     # Display music logo
-    logo = st.image("https://www.pixelstalk.net/wp-content/uploads/2016/07/Music-Note-HD-Wallpaper.jpg", width=100)
+    logo = st.image("https://www.pixelstalk.net/wp-content/uploads/2016/07/Music-Note-HD-Wallpaper.jpg", width=400)
 
     create_database()
     for song_title in coldplay_songs:
